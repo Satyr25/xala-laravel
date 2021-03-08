@@ -1,0 +1,279 @@
+@media (max-width:991px){
+        
+    .texto-carrusel{
+        padding: 0 30px;
+        font-size: 21px;
+    }
+    .desk{
+        display: none !important;
+    }
+
+    .texto-video{
+        padding: 0 40px;
+        top: 16vh;
+        font-size: 21px;
+    }
+    .imagen-video{
+        max-width: 75px;
+        top: 17vh;
+    }
+    .titulo-index-donar{
+        padding: 0 40px;
+        font-size: 21px;
+    }
+    .button-donar{
+        font-size: 16px;
+    }
+    .nosotros-titulo{
+        font-size: 21px;
+    }
+    .row-mision{
+        display: block;
+    }
+    .texto-iniciativa{
+        margin: 0 10px;
+        font-size: 18px;
+    }
+    .enlace-nuevo-proyecto{
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .proyecto-index-texto{
+        padding: 0 10px;
+        font-size: 18px;
+    }
+    .proyectos-grid > .row{
+        display: block;
+    }
+    .contacto-titulo{
+        text-align: center;
+        font-size: 21px;
+    }
+    .section-contacto-titulo{
+        padding: 50px 0;   
+    }
+    .titulo-contacto-form{
+        letter-spacing: 5px;
+        font-size: 21px;
+        text-align: center;
+    }
+    .row-input-contacto{
+        display: block;
+    }
+    .contacto-label-form{
+        display: block;
+        width: 100%;
+    }
+
+    .section-contacto-form .field-contactform-name{
+        float: inherit;
+        width: inherit;
+        padding-top: 10px;
+    }
+    .section-contacto-form .field-contactform-company{
+        float: inherit;
+        width: inherit;
+        padding-top: 10px;
+    }
+    .section-contacto-form .field-contactform-email{
+        float: inherit;
+        width: inherit;
+        padding-top: 10px;
+    }
+    .section-contacto-form .field-contactform-phone{
+        float: inherit;
+        width: inherit;
+        padding-top: 10px;
+    }
+    .section-contacto-form .field-contactform-comments{
+        float: inherit;
+        width: inherit;
+        padding-top: 10px;
+    }
+    .section-contacto-form{
+        background-color: #ededef;
+        padding-bottom: 0;
+    }
+    .section-contacto-form2 .field-contactform-name{
+        float: inherit;
+        width: inherit;
+        padding-top: 10px;
+    }
+    .section-contacto-form2 .field-contactform-company{
+        float: inherit;
+        width: inherit;
+        padding-top: 10px;
+    }
+    .section-contacto-form2 .field-contactform-email{
+        float: inherit;
+        width: inherit;
+        padding-top: 10px;
+    }
+    .section-contacto-form2 .field-contactform-phone{
+        float: inherit;
+        width: inherit;
+        padding-top: 10px;
+    }
+    .section-contacto-form2{
+        background-color: #ededef;
+        padding-bottom: 0;
+    }
+    .send-contact-button{
+        margin-bottom: 30px;
+    }
+    .datos-contacto{
+        text-align: center;
+    }
+    .donation-type-selectors .type{
+        padding: 0;
+    }
+    .donation-type-selectors{
+        padding-bottom: 6px;
+    }
+    
+    .amount-buttons > div:nth-child(odd){
+        padding: 0 3px 6px 15px;
+    }
+    .amount-buttons > div:nth-child(even){
+        padding: 0 15px 6px 3px;
+    }
+    
+    .div-otra-cantidad{
+        padding: 0 15px 6px 3px;
+    }
+    .amount-selectors .amount{
+        height: 35px;
+        padding: 0;
+    }
+    .amount-selectors{
+        padding: 0;
+    }
+    .wrap-dedicacion{
+        display: flex;
+        justify-content: center;
+    }
+    .col-input{
+        padding-left: 15px;
+    }
+    .col-input.izq{
+        padding-right: 4px;
+    }
+    .col-input.der{
+        padding-left: 4px;
+    }
+    .col-input.mid{
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .row.submit-donation .inner{
+        display: block;
+    }
+    .cantidad-wrapper .text{
+        float: inherit;
+        padding-top: 15px;
+    }
+    .contenedor-izq{
+        padding-bottom: 30px;
+    }
+    .faq-block{
+        background-color: transparent;
+    }
+    .row-faqs{
+        margin-left: 0;
+        margin-right: 0;
+        background-color: #7baeb8;
+    }
+    .img-trans{
+        width: 100%;
+    }
+    .img-trans2{
+        width: 100%;
+    }
+    .titulo-iniciativa-xala{
+        font-size: 21px;
+    }
+    .overlay .navigation-links a, .overlay .navigation-links span{
+        font-size: 1.6em;
+    }
+    .overlay .navigation-links{
+        margin: 10vh auto 0;
+    }
+    .ambientales-texto1,
+    .ambientales-texto2{
+        padding: 10vh 0;
+    }
+    .texto-iniciativa-xala{
+        font-size: 18px;
+    }
+    .titulo-mision,
+    .titulo-vision,
+    .titulo-valores,
+    .titulo-iniciativa,
+    .proyecto-index-titulo,
+    .proyecto-grid-titulo,
+    .titulo-academicos,
+    .proyecto-grid-titulo-rosa,
+    .academico-grid-titulo2,
+    .ambiental-grid-titulo1,
+    .subtitulo-datos{
+        font-size: 21px;
+    }
+    .texto-mision,
+    .texto-vision,
+    .texto-valores,
+    .proyecto-grid-texto,
+    .academico-grid-texto1,
+    .academico-grid-texto2,
+    .contacto-label-form,
+    .texto-datos{
+        font-size: 18px;
+    }
+    .btn-ver-mas,
+    .btn-ver-mas2,
+    .send-contact-button{
+        font-size: 14px;
+    }
+    .section-nosotros-titulo{
+        height: 120px;
+        background-position: top;
+    }
+    .section-contacto-titulo{
+        background-position: top;
+    }
+    .container-nosotros-titulo,
+    .container-contacto-titulo{
+        top: -8px;
+        position: relative;
+    }
+    .div-mision,
+    .div-vision{
+        padding: 40px 20px;
+    }
+    .texto-mision,
+    .texto-vision,
+    .texto-valores{
+        margin: 0;
+    }
+    .eapps-instagram-feed-posts-grid-load-more-container.eapps-instagram-feed-posts-grid-load-more-enabled{
+        display: none !important;
+    }
+    .div-vehiculos:nth-child(odd){
+        padding: 2px 3px 15px 5px;
+        max-height: 345px;
+    }
+    .div-vehiculos:nth-child(even){
+        padding: 2px 5px 15px 3px;
+    }
+    
+    .vi-img{
+        padding: 5px 5px;
+        width: 40%;
+        height: auto;
+        max-height: 30vh;
+        max-width: 30vh;
+    }
+    .wrap-images-xala{
+        height: auto;
+    }
+}

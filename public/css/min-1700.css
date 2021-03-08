@@ -1,0 +1,23 @@
+@media (min-width:1700px){
+    .container{
+        width: 1446px;
+    }
+    .container.no-pad2{
+        width: 100%;
+    }
+    .section-contacto-form .field-contactform-name{
+        width: 75.1%;
+    }
+    .section-contacto-form .field-contactform-company{
+        width: 74.2%;
+    }
+    .contenedor-texto2-ambientales{
+        padding: 0 12%;
+    }
+    .section-contacto-form2 .field-contactform-company{
+        width: 74.3%;
+    }
+    .section-contacto-form2 .field-contactform-phone{
+        width: 68.2%;
+    }
+}

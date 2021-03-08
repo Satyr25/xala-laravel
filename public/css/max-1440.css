@@ -1,0 +1,58 @@
+@media (max-width:1440px){
+    .overlay .navigation-links a, .overlay .navigation-links span{
+        font-size: 2em;
+        margin: 2vh 0;
+    }
+    .texto-carrusel{
+        font-size: 35px;
+    }
+    
+    .titulo-iniciativa-xala,
+    .texto-video,
+    .nosotros-titulo,
+    .titulo-mision,
+    .titulo-vision,
+    .titulo-valores,
+    .titulo-iniciativa,
+    .proyecto-index-titulo,
+    .proyecto-grid-titulo,
+    .titulo-academicos,
+    .proyecto-grid-titulo-rosa,
+    .academico-grid-titulo2,
+    .ambiental-grid-titulo1,
+    .contacto-titulo,
+    .titulo-contacto-form{
+        font-size: 28px;
+    }
+    
+    .texto-iniciativa-xala,
+    .texto-mision,
+    .texto-vision,
+    .texto-valores,
+    .texto-iniciativa,
+    .proyecto-index-texto,
+    .proyecto-grid-texto,
+    .academico-grid-texto1,
+    .academico-grid-texto2,
+    .contacto-label-form{
+        font-size: 19px;
+    }
+    
+    .texto-datos{
+        font-size: 18px;
+    }
+    
+    .eapps-instagram-feed-title{
+        font-size: 25px !important;
+    }
+    
+    .btn-ver-mas,
+    .btn-ver-mas2,
+    .send-contact-button{
+        font-size: 14px;
+    }
+    
+    .subtitulo-datos{
+        font-size: 25px;
+    }
+}

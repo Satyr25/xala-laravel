@@ -1,0 +1,19 @@
+@media (min-width:768px){
+
+    .proyecto-grid-titulo,
+    .proyecto-grid-texto,
+    .btn-ver-mas,
+    .proyecto-grid-titulo-rosa,
+    .academico-grid-texto1,
+    .ambiental-grid-titulo1,
+    .academico-grid-texto1{
+        animation-duration: 2s;
+        animation-name: fadeUp;
+    }
+    .fade-up,
+    .fade-right,
+    .fade-down,
+    .fade-left{
+        visibility: visible;
+    }
+}

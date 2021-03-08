@@ -1,0 +1,10 @@
+@media (min-width:992px){
+        
+    .mobile{
+        display: none !important;
+    }
+    .titulo-monetaria{
+        font-size: 32px;
+    }
+    
+}

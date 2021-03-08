@@ -1,0 +1,40 @@
+@media (min-width:1200px){
+    .academico-grid-texto1{
+        padding: 0 60px;
+    }
+    .contenedor-texto2-ambientales{
+        padding: 0 7%;
+    }
+    .academico-grid-texto2{
+        padding: 0 60px;
+    }
+    .proyecto-grid-texto{
+        line-height: 35px;
+    }
+    .contenedor-texto2{
+        padding: 0 12%;
+    }
+    .contenedor-texto{
+        padding: 0 12%;
+    }
+    .div-mision,
+    .div-vision{
+        padding: 80px;
+    }
+    .section-contacto-form .field-contactform-company{
+        width: 77%;
+    }
+    .section-contacto-form .field-contactform-email,
+    .section-contacto-form .field-contactform-phone{
+        width: 64.3%;
+    }
+    .titulo-monetaria{
+        font-size: 36px;
+    }
+    .section-contacto-form2 .field-contactform-phone{
+        width: 65.7%;
+    }
+    .section-contacto-form2 .field-contactform-company{
+        width: 73.3%;
+    }
+}
