@@ -157,22 +157,26 @@ var observerRespDown = function(entries, observer) {
     });
 };
 
-// inicializa el carrusel del index
-function setupIndexCarousel() {
-  $('.index-carousel').slick({
-    arrows: false,
-    dots: true
-  });
-}
+// // inicializa el carrusel del index
+// function setupIndexCarousel() {
+//   $('.index-carousel').slick({
+//     arrows: false,
+//     dots: true
+//   });
+// }
 
-// inicializa el carrusel del proyecto
-function setupProjectCarousel() {
-  $('.project-carousel').slick({
-    arrows: false,
-    dots: true,
-    adaptiveHeight: true
-  });
-}
+// // inicializa el carrusel del proyecto
+// function setupProjectCarousel() {
+//   $('.project-carousel').slick({
+//     arrows: false,
+//     dots: true,
+//     adaptiveHeight: true
+//   });
+// }
+
+$('.slick').slick({
+  slidesToShow: 1,
+});
 
 // inicializa AOS
 function initializaAOS() {

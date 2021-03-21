@@ -428,6 +428,7 @@ footer .links-container a {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 1px;
+    margin-top: 0;
 }
 
 .row.submit-donation .inner {
@@ -1517,14 +1518,19 @@ footer .links-container a {
 .texto-decdicatoria{
     font-size: 20px;
     font-weight: 300;
+    margin-top: 20px;
 }
-.formulario-donacion{
-    
+
+.texto-dedicatoria2{
+    font-size: 20px;
+    font-weight: 300;
+    float: right;
 }
 .donation .form-control{
     border: 2px solid #7baeb8;
     border-radius: 0;
     height: 42px;
+    margin-top: 15px;
 }
 .donation .form-control::placeholder{
     color: #7baeb8;
@@ -1539,7 +1545,6 @@ footer .links-container a {
 }
 .bloque-ayuda{
     position: relative;
-    top: -15px;
     font-size: 16px;
     font-weight: 100;
     margin: 0;
@@ -1550,6 +1555,14 @@ footer .links-container a {
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+.subtitulo-monetaria2{
+    color: #7baeb8;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
 }
 .subtitulo-faqs{
     color: white;
@@ -1623,6 +1636,7 @@ footer .links-container a {
 .faq-display-button{
     background-color: transparent;
     border: none;
+    outline: none;
 }
 
 .radio-inline {
@@ -1854,6 +1868,7 @@ footer .links-container a {
     background-color: transparent;
     border: none;
     max-width: 40px;
+    outline: none;
 }
 
 .proyectos-grid-img1{
@@ -2108,4 +2123,15 @@ footer .links-container a {
 .vi-img{
     height: 30vh;
     padding: 0 5px;
+}
+
+.help-block-error{
+    color: #d57872;
+    padding-left: 15px;
+}
+button:focus{
+    outline: none;
+}
+.row-confimed{
+    display: flex;
 }

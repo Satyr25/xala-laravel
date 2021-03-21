@@ -1,6 +1,6 @@
 <?php 
 
-if(Request::is('home/nosotros')){
+if(Request::is('nosotros')){
     $nav_color = 'nav-color-us';
 } else if (Request::is('/')){
     $nav_color = 'nav-color-home';
@@ -10,6 +10,8 @@ if(Request::is('home/nosotros')){
     $nav_color = 'nav-color-proyects';
 } else if (Request::is('donaciones')){
     $nav_color = 'nav-color-donaciones';
+} else {
+    $nav_color = '';
 }
 
 ?>
@@ -21,7 +23,9 @@ if(Request::is('home/nosotros')){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, height=device-height">
     <title>Iniciativa Xala - @yield('title')</title>
-    <link rel="stylesheet" href="{{asset('css/app.css')}}"> 
+    <link rel="stylesheet" type="text/css" href="{{asset('css/slick.css')}}"> 
+    <link rel="stylesheet" type="text/css" href="{{asset('css/slick-theme.css')}}"> 
+    <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}"> 
     <link rel="stylesheet" href="{{asset('css/site.css')}}"> 
     <link rel="stylesheet" href="{{asset('css/xala.css')}}"> 
     <link rel="stylesheet" href="{{asset('css/min-350.css')}}"> 
@@ -38,8 +42,11 @@ if(Request::is('home/nosotros')){
     <link rel="stylesheet" href="https://use.typekit.net/nvl5jcq.css">  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <script src="{{asset('js/jquery.js')}}" type="text/javascript"></script> 
-    <script src="{{asset('js/xala.js')}}" type="text/javascript"></script> 
+    <script src="{{asset('js/slick.js')}}" type="text/javascript"></script> 
+    <script src="{{asset('js/bootstrap.js')}}" type="text/javascript"></script> 
     <script src="{{asset('js/app.js')}}" type="text/javascript"></script> 
+    <script src="{{asset('js/xala.js')}}" type="text/javascript"></script> 
+    <script src="https://www.paypal.com/sdk/js?client-id={{}}"></script>
 </head>
 
 <body>
@@ -65,20 +72,22 @@ if(Request::is('home/nosotros')){
                     <div class="col-md-4 col-sm-4 col-xs-4 flex-justify-right">
                         <div class="language-buttons hidden-xs">
                         </div>
-                        <a href="{{url('donaciones/index')}}" class="circle-golden-button hidden <?=$nav_color?>">Donar</a>
+                        <a href="{{route('home.donativos')}}" class="circle-golden-button <?=$nav_color?>">Donar</a>
                     </div>
                 </div>
             </div>
         </nav>
         <div class="overlay <?= $nav_color ?>">
             <div class="navigation-links">
-                <a href=" {{url('/')}} ">Inicio</a>
+                <a href=" {{route('home')}} ">Inicio</a>
                 <br>
-                <a href="{{url('home/nosotros')}}">Nosotros</a>
+                <a href="{{route('home.nosotros')}}">Nosotros</a>
                 <br>
-                <a href="{{url('proyectos/index')}}">Proyectos</a>
+                <a href="{{route('proyectos.index')}}">Proyectos</a>
                 <br>
-                <a href="{{url('home/contacto')}}">Contacto</a>
+                <a href="{{route('home.donativos')}}">Donativos</a>
+                <br>
+                <a href="{{route('home.contacto')}}">Contacto</a>
                 <br>
                 <div class="nav-social-wrap">
                     <a href="https://www.instagram.com/iniciativaxala/" target="blank" class="nav-img-socials">
@@ -94,6 +103,7 @@ if(Request::is('home/nosotros')){
         </div>
     </header>
     <main class="main-wrap">
+        @include('flash')
         @yield('content')
     </main>
 
@@ -124,7 +134,7 @@ if(Request::is('home/nosotros')){
         <?php } ?>
         <div class="row">
             <div class="col-xs-12 wrap-footer-links">
-                <a href="{{url('home/politicas-de-privacidad')}}" class="footer-link">AVISO DE PRIVACIDAD</a>
+                <a href="{{url('politicas-de-privacidad')}}" class="footer-link">AVISO DE PRIVACIDAD</a>
             </div>
         </div>
         <div class="row">
